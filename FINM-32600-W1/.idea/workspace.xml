@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2c7cf8b6-bfaa-49ba-ac2e-943a8c4606c6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FINM-32600-W1.sln" beforeDir="false" afterPath="$PROJECT_DIR$/FINM-32600-W1.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FINM-32600-W1/FINM-32600-W1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/FINM-32600-W1/FINM-32600-W1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FINM-32600-W1/FINM-32600-W1.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/FINM-32600-W1/FINM-32600-W1.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FINM-32600-W1/FINM-32600-W1.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/FINM-32600-W1/FINM-32600-W1.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FINM-32600-W1/FINM-32600-W1.vcxproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/FINM-32600-W1/FINM-32600-W1.vcxproj.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FINM-32600-W1/x64/Debug/FINM-32600-W1.exe.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/FINM-32600-W1/x64/Debug/FINM-32600-W1.exe.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FINM-32600-W1/x64/Debug/FINM-32600-W1.log" beforeDir="false" afterPath="$PROJECT_DIR$/FINM-32600-W1/x64/Debug/FINM-32600-W1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FINM-32600-W1/x64/Debug/FINM-32600-W1.tlog/FINM-32600-W1.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/FINM-32600-W1/x64/Debug/FINM-32600-W1.tlog/FINM-32600-W1.lastbuildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FINM-32600-W1/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/FINM-32600-W1/x64/Debug/vc143.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/FINM-32600-W1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/FINM-32600-W1.pdb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2JyrKSS1cwmU5fGMSupWAxcvAEN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kihyun/Library/CloudStorage/OneDrive-TheUniversityofChicago/2023-1 Winter/FINM 32600/kwhyun97/FINM-32600-W23/FINM-32600-W1&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="FINM-32600-W1.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FINM-32600-W1" TARGET_NAME="FINM-32600-W1.cpp" CONFIG_NAME="FINM-32600-W1.cpp">
+      <option name="sourceFile" value="FINM-32600-W1/FINM-32600-W1.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c7cf8b6-bfaa-49ba-ac2e-943a8c4606c6" name="Changes" comment="" />
+      <created>1673061100706</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673061100706</updated>
+      <workItem from="1673061102173" duration="87000" />
+      <workItem from="1673061207574" duration="88000" />
+      <workItem from="1673064366337" duration="90000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

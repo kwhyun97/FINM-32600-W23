@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CLion",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CLion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CLion-Debug-8bc63d213f767c61b4e6.json",
+					"name" : "CLion",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/kwhyu/OneDrive - The University of Chicago/2023-1 Winter/FINM 32600/kwhyun97/FINM-32600-W23/CLion/out/build/x64-Debug",
+		"source" : "C:/Users/kwhyu/OneDrive - The University of Chicago/2023-1 Winter/FINM 32600/kwhyun97/FINM-32600-W23/CLion"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

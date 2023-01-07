@@ -33,3 +33,4 @@
 
 # Visual Studios files
 .vs/*
+*/.vs/*
