@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/kwhyu/OneDrive - The University of Chicago/2023-1 Winter/FINM 32600/kwhyun97/FINM-32600-W23/CLion
+# Install script for directory: C:/Users/kwhyu/OneDrive - The University of Chicago/2023-1 Winter/FINM 32600/kwhyun97/FINM-32600-W23/FINM 32600
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
