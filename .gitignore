@@ -34,3 +34,6 @@
 # Visual Studios files
 .vs/*
 */.vs/*
+
+# CLion files
+*CLion/*
