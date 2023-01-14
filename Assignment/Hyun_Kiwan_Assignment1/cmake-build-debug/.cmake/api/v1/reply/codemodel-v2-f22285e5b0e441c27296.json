@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Hyun_Kiwan_Assignment1",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Hyun_Kiwan_Assignment1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Hyun_Kiwan_Assignment1-Debug-5e373ab6ae1835c9aef5.json",
+					"name" : "Hyun_Kiwan_Assignment1",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/kihyun/Library/CloudStorage/OneDrive-TheUniversityofChicago/2023-1 Winter/FINM 32600/kwhyun97/FINM-32600-W23/Assignment/Hyun_Kiwan_Assignment1/cmake-build-debug",
+		"source" : "/Users/kihyun/Library/CloudStorage/OneDrive-TheUniversityofChicago/2023-1 Winter/FINM 32600/kwhyun97/FINM-32600-W23/Assignment/Hyun_Kiwan_Assignment1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
