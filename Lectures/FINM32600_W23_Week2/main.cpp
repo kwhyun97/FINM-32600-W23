@@ -36,6 +36,56 @@ void swap2(int* ap, int* bp)
     *bp = temp;
 }
 
+int factorial(int n)
+{
+    int temp = 1;
+
+    for(int i = 1; i < n + 1; ++i)
+    {
+        temp = temp * i;
+    }
+
+    return temp;
+}
+
+bool prime(int n)
+{
+    switch (n)
+    {
+        case 1: return 0;
+
+        case 2: return 1;
+
+        default: break;
+    }
+
+    int factor = 2;
+    int flag = 0;
+    do
+    {
+        flag = n % factor;
+        switch (flag)
+        {
+            case 0: return 0;
+
+            default: break;
+        }
+        ++factor;
+    } while (factor < n);
+
+    return 1;
+}
+
+void fib(int *f, int n)
+{
+    f[0] = 0;
+    f[1] = 1;
+    for(int i = 2; i < n + 1; ++i)
+    {
+        f[i] = f[i - 1] + f[i - 2];
+    }
+}
+
 int main()
 {
     // 1. Basic Hello World!
@@ -130,7 +180,7 @@ int main()
     // 9 - 1. Branching
     // 9 - 1 - 1. if/else:
     int x_3;
-    cout << "Enter Number: ";
+    cout << "[Pos/Neg/0] Enter Number: ";
     cin >> x_3;
     // Nested if statements
     if (x_3 > 0)
@@ -147,7 +197,7 @@ int main()
     }
     // 9 - 1 - 2. switch: don't need deeply nested if/else statements
     // switch expression NEEDS to be integer or enumerate values
-    cout << "Enter number: ";
+    cout << "[0, 1, or 2] Enter number: ";
     int value = 0;
     cin >> value;
     switch (value)
@@ -177,11 +227,43 @@ int main()
     // 9 - 2 - 2. do:
     do
     {
-        cout << "Enter number (0 to end): ";
+        cout << "[What you entered] Enter number (0 to end): ";
         cin >> n;
         cout << "You entered: " << n << endl;
     } while (n != 0);
 
+    // 9 - 2 - 3. for:
+    for (int n=0; n<10; ++n) // instead of n = n + 1, we use ++n
+    {
+        cout << "n : " << n << endl;
+    }
+
+    // Exercise: Factorial
+    cout << "[Factorial] Enter Natural Number: ";
+    int n_1 = 0;
+    cin >> n_1;
+    cout << "Factorial of " << n_1 << " is " << factorial(n_1) << endl;
+
+    // Exercise: Prime Number Finder
+    cout << "[Prime Number?] Enter Natural Number: ";
+    int n_2 = 0;
+    cin >> n_2;
+    if(prime(n_2))
+    {
+        cout << n_2 << " is a prime number" << endl;
+    }
+    else
+    {
+        cout << n_2 << " is not a prime number" << endl;
+    }
+    // Exercise: Fibonacci sequence
+    int fibo[10];
+    fib(fibo, 10);
+    cout << "The 10th Fibonacci number is: " << fibo[10] << endl;
+
+    // Exercise: Square Root
+
+    // Exercise: Sorting
 
     return 0;
 }
