@@ -1,12 +1,11 @@
 //
 // Created by Kiwan Hyun on 2023/01/20.
 //
-
-#pragma once
-
 #include <string>
 using std::string;
 
+#ifndef FINM32600_W23_WEEK3_Currency_H
+#define FINM32600_W23_WEEK3_Currency_H
 class Currency
 {
 public:
@@ -23,3 +22,4 @@ private:
     string symbol_; // symbol of currency
     double exchange_rate_; // exchange rate of currency
 };
+#endif //FINM32600_W23_WEEK3_Currency_H
