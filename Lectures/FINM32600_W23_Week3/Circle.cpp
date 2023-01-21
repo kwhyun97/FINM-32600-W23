@@ -22,16 +22,6 @@ Circle::~Circle()
 {
 }
 
-double Circle::GetArea()
-{
-    return 3.14 * radius_ * radius_;
-}
-
-double Circle::GetCircumference()
-{
-    return 3.14 * 2 * radius_;
-}
-
 void Circle::SetRadius(double radius)
 {
     radius_ = radius;
@@ -41,4 +31,14 @@ void Circle::SetCenter(double center_x, double center_y)
 {
     center_x_ = center_x;
     center_y_ = center_y;
+}
+
+double Circle::GetArea()
+{
+    return 3.14 * radius_ * radius_; // approximating \pi as 3.14
+}
+
+double Circle::GetCircumference()
+{
+    return 3.14 * 2 * radius_; // approximating \pi as 3.14
 }
