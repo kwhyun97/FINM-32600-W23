@@ -19,7 +19,7 @@ int main()
     double rate_2;
     const double ex_rate[]{ 1, 0.92, 0.82, 1.34, 1.43, 127.9, 6.7 };
     double amount;
-    string currencies[] {"USD", "EUR", "GBP", "CAD", "AUD", "JPY", "KRW" };
+    string currencies[] {"USD", "EUR", "GBP", "CAD", "AUD", "JPY", "RMB" };
 
     while (1)
     {
