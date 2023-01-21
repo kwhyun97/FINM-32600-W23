@@ -13,6 +13,7 @@ public:
 
     double GetArea(); // getting the area of the circle
     double GetCircumference(); //getting the circumference of the circle
+    bool InsideCircle(double coordinate_x, double coordinate_y); // tells you if you are inside the circle
 
     void SetRadius(double radius); // setting the radius
     void SetCenter(double center_x, double center_y); // setting the center
