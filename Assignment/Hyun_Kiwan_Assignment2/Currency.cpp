@@ -50,6 +50,13 @@ Currency::Currency(string symbol, string country, double exchange_rate)
 {
 }
 
+Currency::Currency(const Currency& other)
+        : symbol_(other.symbol_),
+          country_(other.country_),
+          exchange_rate_(other.exchange_rate_)
+{
+}
+
 Currency::~Currency()
 {
 }

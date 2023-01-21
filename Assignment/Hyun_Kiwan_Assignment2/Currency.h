@@ -11,6 +11,7 @@ class Currency
 public:
     Currency(); // default constructor
     Currency(string symbol, string country, double exchange_rate); // overload constructor
+    Currency(const Currency&); // copy constructor
     ~Currency(); // destructor
 
     string GetSymbol(); // getting the symbol of currency
