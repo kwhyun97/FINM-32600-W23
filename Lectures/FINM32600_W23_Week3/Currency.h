@@ -15,6 +15,7 @@ public:
 
     string GetSymbol(); // getting the symbol of currency
     double GetExchangeRate(); // getting the exchange rate of currency
+    double ConvertFromUSD(double amount); // converting to currency from USD
 
     void SetExchangeRate(double exchange_rate); // setting the exchange rate for a currency
 

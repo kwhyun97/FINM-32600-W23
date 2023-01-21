@@ -16,6 +16,11 @@ string Currency::GetSymbol()
     return symbol_;
 }
 
+double Currency::ConvertFromUSD(double amount)
+{
+    return amount * exchange_rate_;
+}
+
 void Currency::SetExchangeRate(double exchange_rate)
 {
     exchange_rate_ = exchange_rate;
