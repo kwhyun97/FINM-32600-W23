@@ -4,7 +4,8 @@
 
 #pragma once
 
-using namespace std;
+#include <string>
+using std::string;
 
 class Currency
 {
