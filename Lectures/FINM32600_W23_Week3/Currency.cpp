@@ -21,6 +21,16 @@ double Currency::ConvertFromUSD(double amount)
     return amount * exchange_rate_;
 }
 
+void Currency::SetSymbol(string symbol)
+{
+    symbol_ = symbol;
+}
+
+void Currency::SetCountry(string country)
+{
+    country_ = country;
+}
+
 void Currency::SetExchangeRate(double exchange_rate)
 {
     exchange_rate_ = exchange_rate;
@@ -28,12 +38,14 @@ void Currency::SetExchangeRate(double exchange_rate)
 
 Currency::Currency()
         : symbol_(""),
+          country_(""),
           exchange_rate_(0.0)
 {
 }
 
-Currency::Currency(string symbol, double exchange_rate)
+Currency::Currency(string symbol, string country, double exchange_rate)
         : symbol_(symbol),
+          country_(country),
           exchange_rate_(exchange_rate)
 {
 }
