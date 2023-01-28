@@ -1,4 +1,9 @@
 # ninja log v5
-2	1633	1674268607048376769	CMakeFiles/Hyun_Kiwan_Assignment2.dir/Currency.cpp.o	c1c2aa1b9032b6b2
-0	1911	1674268607328143557	CMakeFiles/Hyun_Kiwan_Assignment2.dir/main.cpp.o	fa4c261cf739e4c6
-1912	2050	1674268607469641182	Hyun_Kiwan_Assignment2	76c8c1663800d3d0
+10	890	1674871265781269917	CMakeFiles/Hyun_Kiwan_Assignment2.dir/Currency.cpp.o	c1c2aa1b9032b6b2
+7	1307	1674873441419992858	CMakeFiles/Hyun_Kiwan_Assignment2.dir/main.cpp.o	fa4c261cf739e4c6
+1308	1423	1674873441544032442	Hyun_Kiwan_Assignment2	76c8c1663800d3d0
+10	1313	1674874234842259759	CMakeFiles/Hyun_Kiwan_Assignment2.dir/main.cpp.o	fa4c261cf739e4c6
+7	764	1674874335972090995	CMakeFiles/Hyun_Kiwan_Assignment2.dir/FX.cpp.o	e60c1b2336855f4e
+765	907	1674874336127693308	Hyun_Kiwan_Assignment2	6125ca49867139f5
+7	1062	1674874399618518132	CMakeFiles/Hyun_Kiwan_Assignment2.dir/main.cpp.o	fa4c261cf739e4c6
+1062	1201	1674874399761591918	Hyun_Kiwan_Assignment2	6125ca49867139f5

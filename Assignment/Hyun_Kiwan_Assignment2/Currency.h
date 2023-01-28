@@ -17,10 +17,12 @@ public:
     string GetSymbol(); // getting the symbol of currency
     double GetExchangeRate(); // getting the exchange rate of currency
     double ConvertFromUSD(double amount); // converting to currency from USD
+    double ConvertToUSD(double amount); // converting from USD to currency
 
     void SetSymbol(string symbol); // setting the symbol for a currency
     void SetCountry(string country); // setting the country for a currency
     void SetExchangeRate(double exchange_rate); // setting the exchange rate for a currency
+    Currency& operator=(const Currency& other); // Assignment operator
 
 private:
     string symbol_; // symbol of currency

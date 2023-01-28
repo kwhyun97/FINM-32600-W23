@@ -21,6 +21,11 @@ double Currency::ConvertFromUSD(double amount)
     return amount * exchange_rate_;
 }
 
+double Currency::ConvertToUSD(double amount)
+{
+    return amount * 1/exchange_rate_;
+}
+
 void Currency::SetSymbol(string symbol)
 {
     symbol_ = symbol;
@@ -59,4 +64,15 @@ Currency::Currency(const Currency& other)
 
 Currency::~Currency()
 {
+}
+
+// Assignment operator
+Currency& Currency::operator=(const Currency& other) {
+    if (this != &other) {
+        symbol_ = other.symbol_;
+        country_ = other.country_;
+        exchange_rate_ = other.exchange_rate_;
+    }
+
+    return *this;
 }
