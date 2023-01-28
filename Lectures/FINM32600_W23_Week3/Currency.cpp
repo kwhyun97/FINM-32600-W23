@@ -60,3 +60,15 @@ Currency::Currency(const Currency& other) // how to define a copy constructor
 Currency::~Currency()
 {
 }
+
+// Assignment operator
+Currency& Currency::operator=(const Currency& other)
+{
+    if (this != &other)
+    {
+        symbol_ = other.symbol_;
+        exchange_rate_ = other.exchange_rate_;
+    }
+
+    return *this;
+}
