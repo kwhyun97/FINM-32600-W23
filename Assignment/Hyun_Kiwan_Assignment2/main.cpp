@@ -192,6 +192,7 @@ int main()
         switch(static_cast<ContinueExit>(continue_exit))
         {
             case(OUT):
+                cout << "Thank you for your visit at the Exchange!" << endl;
                 return 0;
             case(ANOTHER):
                 continue;
