@@ -1,4 +1,4 @@
-# Install script for directory: /Users/kihyun/Library/CloudStorage/OneDrive-TheUniversityofChicago/2023-1 Winter/FINM 32600/kwhyun97/FINM-32600-W23/Midterm/Q2
+# Install script for directory: /Users/kihyun/Library/CloudStorage/OneDrive-TheUniversityofChicago/2023-1 Winter/FINM 32600/kwhyun97/FINM-32600-W23/Midterm/Hyun_Kiwan_FINM32600_Midterm_Q2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/kihyun/Library/CloudStorage/OneDrive-TheUniversityofChicago/2023-1 Winter/FINM 32600/kwhyun97/FINM-32600-W23/Midterm/Q2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/kihyun/Library/CloudStorage/OneDrive-TheUniversityofChicago/2023-1 Winter/FINM 32600/kwhyun97/FINM-32600-W23/Midterm/Hyun_Kiwan_FINM32600_Midterm_Q2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

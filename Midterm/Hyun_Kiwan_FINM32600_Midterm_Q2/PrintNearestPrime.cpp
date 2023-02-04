@@ -8,7 +8,7 @@ using namespace std;
 
 void PrintNearestPrime(int n)
 {
-    cout << "Q2 (a) related ";
+    cout << "Hyun_Kiwan_FINM32600_Midterm_Q2 (a) related ";
     cout << "[1 to " << n << "'s nearest prime]:" << endl;
 
     int p = FindNearestPrime(n);

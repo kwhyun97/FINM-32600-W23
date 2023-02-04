@@ -11,7 +11,7 @@ using namespace std;
 
 void PrintFooBar(int n)
 {
-    cout << "Q2 (b) related ";
+    cout << "Hyun_Kiwan_FINM32600_Midterm_Q2 (b) related ";
     cout << "[FooBar Print for n = " << n << "]:" << endl;
 
     int i = 1;
