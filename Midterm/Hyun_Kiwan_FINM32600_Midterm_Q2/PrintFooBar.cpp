@@ -21,7 +21,7 @@ void PrintFooBar(int n)
     {
         foobar = FooBar(i);
 
-        cout << i << foobar << endl;
+        cout << i << " " << foobar << endl;
 
         i++;
     }
