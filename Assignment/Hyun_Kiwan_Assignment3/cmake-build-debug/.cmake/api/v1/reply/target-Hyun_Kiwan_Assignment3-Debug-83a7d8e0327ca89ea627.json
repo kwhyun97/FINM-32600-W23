@@ -123,12 +123,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "CurrencyFactor.cpp",
+			"path" : "CurrencyFactory.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "CurrencyFactor.h",
+			"path" : "CurrencyFactory.h",
 			"sourceGroupIndex" : 1
 		}
 	],

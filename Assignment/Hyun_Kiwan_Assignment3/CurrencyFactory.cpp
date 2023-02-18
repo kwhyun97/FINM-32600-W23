@@ -7,28 +7,31 @@
 #include <string>
 using namespace std;
 
-Currency* CurrencyFactory::GetCurrency(int currencyType)
+Currency* CurrencyFactory::GetCurrency(string currencyType)
 {
-    if(first_times_[currencyType])
-    {
-        currencies_[currencyType] = new Currency(symbols_[currencyType],
-                                                 countries_[currencyType],
-                                                 rates_[currencyType]);
-
-        first_times_[currencyType] = false;
+    auto iter = currencies_.find(currencyType);
+    if (iter == currencies_.end()){
+        // currency is not on file, throw error
+        throw std::runtime_error("currency not found");
     }
-
-    return currencies_[currencyType];
+    return iter->second;
 }
 
 CurrencyFactory::CurrencyFactory()
 {
+    currencies_["USD"] = new Currency("USD", "United States of America", 1);
+    currencies_["EUR"] = new Currency("EUR", "European Union", 0.92);
+    currencies_["GAP"] = new Currency("GBP", "United Kingdom", 0.82);
+    currencies_["CAD"] = new Currency("CAD", "Canada", 1.34);
+    currencies_["AUD"] = new Currency("AUD", "Australia", 1.43);
+    currencies_["JPY"] = new Currency("JPY", "Japan", 127.9);
+    currencies_["RMB"] = new Currency("RMB", "China", 6.7);
 }
 
 CurrencyFactory::~CurrencyFactory()
 {
-    for (int i = 0; i < 3; i++)
+    for (auto iter=currencies_.begin(); iter != currencies_.end(); iter++)
     {
-        delete currencies_[i];
+        delete iter->second;
     }
 }
