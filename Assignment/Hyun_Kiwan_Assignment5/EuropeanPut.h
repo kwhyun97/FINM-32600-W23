@@ -7,7 +7,7 @@
 #define HYUN_KIWAN_ASSIGNMENT4_EUROPEANPUT_H
 class EuropeanPut : public Option{
 public:
-    EuropeanPut(Equity* E, Equity* Risk_Free, double K, double T);
+    EuropeanPut(const Equity* E, const Equity* Risk_Free, double K, double T);
 
     double Price() const override;
     double GetPayoff(double ST) const override;

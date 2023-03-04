@@ -7,7 +7,7 @@
 #define HYUN_KIWAN_ASSIGNMENT4_EUROPEANCALL_H
 class EuropeanCall : public Option{
 public:
-    EuropeanCall(Equity* E, Equity* Risk_Free, double K, double T);
+    EuropeanCall(const Equity* E, const Equity* Risk_Free, double K, double T);
 
     double Price() const override;
     double GetPayoff(double ST) const override;

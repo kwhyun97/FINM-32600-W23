@@ -7,7 +7,7 @@
 #include "Normal_Distribution.h"
 using namespace std;
 
-EuropeanCall::EuropeanCall(Equity* E, Equity* Risk_Free, double K, double T)
+EuropeanCall::EuropeanCall(const Equity* E, const Equity* Risk_Free, double K, double T)
     : Option(E, Risk_Free, K, T, "European Call")
 {}
 

@@ -9,7 +9,7 @@
 using namespace std;
 
 // Constructor
-Option::Option(Equity* E, Equity* Risk_Free, double K, double T, string Type)
+Option::Option(const Equity* E, const Equity* Risk_Free, double K, double T, string Type)
     : E_(E),
     Risk_Free_(Risk_Free),
     K_(K),
@@ -17,12 +17,12 @@ Option::Option(Equity* E, Equity* Risk_Free, double K, double T, string Type)
     Type_(Type)
 {}
 
-Equity* Option::GetUnderlying() const
+const Equity* Option::GetUnderlying() const
 {
     return E_;
 }
 
-Equity* Option::GetRFR() const
+const Equity* Option::GetRFR() const
 {
     return Risk_Free_;
 }
