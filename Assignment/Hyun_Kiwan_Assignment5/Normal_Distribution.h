@@ -1,0 +1,9 @@
+//
+// Created by Kiwan Hyun on 2023/02/24.
+//
+
+#ifndef HYUN_KIWAN_ASSIGNMENT4_NORMAL_DISTRIBUTION_H
+#define HYUN_KIWAN_ASSIGNMENT4_NORMAL_DISTRIBUTION_H
+double cdf(double x);
+double pdf(double x);
+#endif //HYUN_KIWAN_ASSIGNMENT4_NORMAL_DISTRIBUTION_H

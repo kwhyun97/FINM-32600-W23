@@ -17,32 +17,32 @@ Option::Option(Equity* E, Equity* Risk_Free, double K, double T, string Type)
     Type_(Type)
 {}
 
-Equity* Option::GetUnderlying()
+Equity* Option::GetUnderlying() const
 {
     return E_;
 }
 
-Equity* Option::GetRFR()
+Equity* Option::GetRFR() const
 {
     return Risk_Free_;
 }
 
-double Option::GetStrike()
+double Option::GetStrike() const
 {
     return K_;
 }
 
-double Option::GetTTM()
+double Option::GetTTM() const
 {
     return T_;
 }
 
-string Option::GetType()
+string Option::GetType() const
 {
     return Type_;
 }
 
-double Option::d1()
+double Option::d1() const
 {
     double S_0 = E_->GetInitialPrice();
     double r = Risk_Free_->GetMu();
@@ -50,7 +50,7 @@ double Option::d1()
     return (log(S_0 * exp(r * T_) / K_)/(v * sqrt(T_)) + ((v * sqrt(T_)) / 2));
 }
 
-double Option::d2()
+double Option::d2() const
 {
     double S_0 = E_->GetInitialPrice();
     double r = Risk_Free_->GetMu();

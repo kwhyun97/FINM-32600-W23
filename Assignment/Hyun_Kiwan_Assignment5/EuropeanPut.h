@@ -9,7 +9,8 @@ class EuropeanPut : public Option{
 public:
     EuropeanPut(Equity* E, Equity* Risk_Free, double K, double T);
 
-    double Price() override;
+    double Price() const override;
+    double GetPayoff(double ST) const override;
     double Delta();
     double Gamma();
 };

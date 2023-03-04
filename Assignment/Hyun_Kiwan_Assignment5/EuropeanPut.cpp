@@ -11,7 +11,7 @@ EuropeanPut::EuropeanPut(Equity* E, Equity* Risk_Free, double K, double T)
     : Option(E, Risk_Free, K, T, "European Put")
 {}
 
-double EuropeanPut::Price()
+double EuropeanPut::Price() const
 {
     double S_0 = GetUnderlying()->GetInitialPrice();
     double K = GetStrike();
@@ -19,6 +19,20 @@ double EuropeanPut::Price()
     double T = GetTTM();
 
     return ((K * exp(0 - r * T)) * cdf(-d2()) - (S_0 * cdf(-d1())));
+}
+
+double EuropeanPut::GetPayoff(double ST) const
+{
+    double K = GetStrike();
+
+    if(ST < K)
+    {
+        return K - ST;
+    }
+    else
+    {
+        return 0.0;
+    }
 }
 
 double EuropeanPut::Delta()

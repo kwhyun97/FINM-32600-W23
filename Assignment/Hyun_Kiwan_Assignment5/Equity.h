@@ -13,10 +13,10 @@ public:
     Equity(string Ticker, double S_0, double mu, double v); // constructor with ticker
     ~Equity() = default; // destructor
 
-    string GetTicker(); // getting ticker of equity
-    double GetInitialPrice(); // getting S_0 of the equity
-    double GetMu(); // getting mean return of the equity
-    double GetVol(); // getting volatility of the equity
+    string GetTicker() const; // getting ticker of equity
+    double GetInitialPrice() const; // getting S_0 of the equity
+    double GetMu() const; // getting mean return of the equity
+    double GetVol() const; // getting volatility of the equity
 
 private:
     string Ticker_;

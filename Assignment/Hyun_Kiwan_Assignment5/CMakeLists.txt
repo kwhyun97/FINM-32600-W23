@@ -7,7 +7,7 @@ project ("Hyun_Kiwan_Assignment5")
 
 # Add source to this project's executable.
 add_executable (Hyun_Kiwan_Assignment5 MCPricer.cpp MCPricer.h Equity.cpp Equity.h EuropeanCall.cpp EuropeanCall.h
-        EuropeanPut.cpp EuropeanPut.h Option.cpp Option.h main.cpp)
+        EuropeanPut.cpp EuropeanPut.h Option.cpp Option.h main.cpp Normal_Distribution.cpp Normal_Distribution.h)
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET Hyun_Kiwan_Assignment5 PROPERTY CXX_STANDARD 20)

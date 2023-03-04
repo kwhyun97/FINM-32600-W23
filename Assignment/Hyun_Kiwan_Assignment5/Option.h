@@ -13,17 +13,18 @@ public:
     Option(Equity* E, Equity* Risk_Free, double K, double T, string Type); //Option Class Constructor
     ~Option() = default; // default destructor
 
-    virtual double Price() = 0; //Virtual Option Pricer Function
+    virtual double Price() const = 0; //Virtual Option Pricer Function
+    virtual double GetPayoff(double ST) const = 0; // Calculating the payoff given expiration price
 
-    Equity* GetUnderlying(); // Getting the underlying asset of the Option
-    Equity* GetRFR(); // Getting the risk-free equity object
-    double GetStrike(); // Getting Strike Price of the Option
-    double GetTTM(); // Getting Time to maturity of the Option
-    string GetType(); // Getting Type of the Option
+    Equity* GetUnderlying() const; // Getting the underlying asset of the Option
+    Equity* GetRFR() const; // Getting the risk-free equity object
+    double GetStrike() const; // Getting Strike Price of the Option
+    double GetTTM() const; // Getting Time to maturity of the Option
+    string GetType() const; // Getting Type of the Option
 
 protected:
-    double d1(); //d1 in the Black-Scholes Option Pricing Formula
-    double d2(); //d2 in the Black-Scholes Option Pricing Formula
+    double d1() const; //d1 in the Black-Scholes Option Pricing Formula
+    double d2() const; //d2 in the Black-Scholes Option Pricing Formula
 
 private:
     Equity* E_; // underlying asset of the option

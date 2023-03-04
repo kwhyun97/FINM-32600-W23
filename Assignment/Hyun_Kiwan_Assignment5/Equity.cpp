@@ -20,22 +20,22 @@ Equity::Equity(double S_0, double mu, double v)
     v_(v)
 {}
 
-string Equity::GetTicker()
+string Equity::GetTicker() const
 {
     return Ticker_;
 }
 
-double Equity::GetInitialPrice()
+double Equity::GetInitialPrice() const
 {
     return S_0_;
 }
 
-double Equity::GetMu()
+double Equity::GetMu() const
 {
     return mu_;
 }
 
-double Equity::GetVol()
+double Equity::GetVol() const
 {
     return v_;
 }

@@ -11,7 +11,7 @@ EuropeanCall::EuropeanCall(Equity* E, Equity* Risk_Free, double K, double T)
     : Option(E, Risk_Free, K, T, "European Call")
 {}
 
-double EuropeanCall::Price()
+double EuropeanCall::Price() const
 {
     double S_0 = GetUnderlying()->GetInitialPrice();
     double K = GetStrike();
@@ -19,6 +19,20 @@ double EuropeanCall::Price()
     double T = GetTTM();
 
     return ((S_0 * cdf(d1())) - (K * exp(0 - r * T)) * cdf(d2()));
+}
+
+double EuropeanCall::GetPayoff(double ST) const
+{
+    double K = GetStrike();
+
+    if(ST > K)
+    {
+        return ST - K;
+    }
+    else
+    {
+        return 0.0;
+    }
 }
 
 double EuropeanCall::Delta()
